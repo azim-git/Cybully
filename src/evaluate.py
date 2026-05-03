@@ -98,7 +98,7 @@ def plot_confusion_matrix(
 
 def evaluate(
     data_path:  str = "data/processed/clean_posts.csv",
-    model_dir:  str = "models/",
+    model_dir:  str = "models/v2_class_weights",
 ) -> None:
     """
     Load saved checkpoint, run on test set, print metrics, save confusion matrix.

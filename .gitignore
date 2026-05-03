@@ -18,15 +18,34 @@ env.bak/
 venv.bak/
 
 # --- Environment Variables ---
-# Use this if you store secrets in local .env files
 .env
 
-# --- IDE/Editor Metadata ---
+# --- Jupyter ---
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# --- ML Experiment Tracking ---
+mlruns/
+wandb/
+
+# --- HuggingFace Cache ---
+.cache/
+
+# --- Model Artefacts ---
+*.pth
+*.pkl
+
+# --- IDE / Editor ---
 .vscode/
 .idea/
 *.swp
 *.swo
 .DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # --- Build & Distribution ---
 dist/
@@ -35,8 +54,21 @@ build/
 *.egg
 lib/
 
+# --- Frontend ---
+node_modules/
+*.local
+
 # --- Testing & Coverage ---
 .pytest_cache/
 .tox/
 .coverage
 htmlcov/
+
+# --- Logs ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
