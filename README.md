@@ -4,6 +4,7 @@
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-FFD21E?logo=huggingface)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-HuggingFace%20Spaces-blue?logo=huggingface)](https://huggingface.co/spaces/AA-Hugger/cybully-classifier)
 
 End-to-end NLP pipeline that fine-tunes DistilBERT on the HateXplain dataset to classify social media posts as **normal**, **offensive**, or **hatespeech**, with a FastAPI backend and a React frontend for interactive predictions.
 
